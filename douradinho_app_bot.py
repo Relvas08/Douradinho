@@ -15,7 +15,7 @@ import os  # Importa o módulo os para variáveis de ambiente
 #    Ex: No terminal, antes de rodar o bot: set DISCORD_BOT_TOKEN=SEU_TOKEN_AQUI (Windows CMD)
 #    Ex: Em plataformas como Replit, Heroku, etc., use a seção de "Secrets" ou "Environment Variables".
 # <--- SUBSTITUA PELO SEU TOKEN REAL OU USE OS.GETENV
-TOKEN = 'MTM4ODc5OTg5MTEyMzIwODI5Mw.G_KIJ5.ei2cqkITgGZGDq_WmEf1BY95HHcVw1n7YfgSSs'
+TOKEN = os.environ['BOT_TOKEN']
 # Exemplo de uso seguro (remova a linha acima e descomente a linha abaixo):
 # TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 
